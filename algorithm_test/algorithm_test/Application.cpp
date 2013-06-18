@@ -18,7 +18,7 @@ bool Application::systemInit()
 
 	// Set up video mode
 	hge->System_SetState(HGE_WINDOWED, true);
-	hge->System_SetState(HGE_SCREENWIDTH, 1600);
+	hge->System_SetState(HGE_SCREENWIDTH, 800);
 	hge->System_SetState(HGE_SCREENHEIGHT, 600);
 	hge->System_SetState(HGE_SCREENBPP, 32);
 
@@ -39,23 +39,23 @@ void Application::loadResource()
 	hFont=new hgeFont("font1.fnt");
 	hFont->SetScale(0.7f);
 
-// 	hge->Ini_SetInt("Algorithm","Num",4);
-// 	hge->Ini_SetInt("Algorithm","Dijktra",1);
-// 	hge->Ini_SetInt("Algorithm","Astar_InsertSort",1);
-// 	hge->Ini_SetInt("Algorithm","Astar_InsertSort_BinarySearch",1);
-// 	hge->Ini_SetInt("Algorithm","Astar",1);
-// 	hge->Ini_SetInt("Algorithm","Astar_BinaryHeap",0);
-// 	hge->Ini_SetInt("Algorithm","BFS",0);
-// 	hge->Ini_SetInt("Algorithm","DFS",0);
-// 	hge->Ini_SetInt("Algorithm","BFS_Priority",0);
-// 
-// 	hge->Ini_SetInt("Situation","map",1);//0:Non_obstacle 1:Normal_obstacle 2:Different_consumption
-// 																			//3:Concave_obstacle 4:Maze
-// 
-// 	hge->Ini_SetInt("Start","x",0);
-// 	hge->Ini_SetInt("Start","y",0);
-// 	hge->Ini_SetInt("End","x",9);
-// 	hge->Ini_SetInt("End","y",9);
+//  	hge->Ini_SetInt("Algorithm","Num",4);
+//  	hge->Ini_SetInt("Algorithm","Dijktra",1);
+//  	hge->Ini_SetInt("Algorithm","Astar_InsertSort",1);
+//  	hge->Ini_SetInt("Algorithm","Astar_InsertSort_BinarySearch",1);
+//  	hge->Ini_SetInt("Algorithm","Astar",1);
+//  	hge->Ini_SetInt("Algorithm","Astar_BinaryHeap",0);
+//  	hge->Ini_SetInt("Algorithm","BFS",0);
+//  	hge->Ini_SetInt("Algorithm","DFS",0);
+//  	hge->Ini_SetInt("Algorithm","BFS_Priority",0);
+//  
+//  	hge->Ini_SetInt("Situation","map",1);//0:Non_obstacle 1:Normal_obstacle 2:Different_consumption
+//  																			//3:Concave_obstacle 4:Maze
+//  
+//  	hge->Ini_SetInt("Start","x",0);
+//  	hge->Ini_SetInt("Start","y",0);
+//  	hge->Ini_SetInt("End","x",40);
+//  	hge->Ini_SetInt("End","y",35);
 }
 
 void Application::readIni()

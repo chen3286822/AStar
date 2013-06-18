@@ -39,8 +39,8 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>D:\hge181\include;$(IncludePath)</IncludePath>
-    <LibraryPath>D:\hge181\lib\vc;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(IncludePath);..\..\hge\hge181\include;..\..</IncludePath>
+    <LibraryPath>$(LibraryPath);..\..\hge\hge181\lib\vc;</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>

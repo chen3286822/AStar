@@ -1,6 +1,9 @@
 #ifndef UTILY_H
 #define UTILY_H
 
+#pragma warning(disable: 4244)
+#pragma warning(disable: 4018)
+
 #include <hge.h>
 #include <hgesprite.h>
 #include <hgefont.h>
